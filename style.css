@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+
+.header {
+    border-bottom: aqua solid 2px;
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul {
+    color: coral;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    list-style: none;
+}
+
+.header .container{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: coral;
+
+}
+
+.agora {
+    font-weight: 600;
+}
+
+.banner {
+    background-image: url("banner.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner .container {
+    height: 500px;
+    align-items: center;
+    
+}
+
+.banner p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    width: 280px;
+    margin-left: 250px;
+}
+
+.banner span {
+    font-weight: 800;
+}
+
+.vidro{
+background: transparent;
+backdrop-filter: blur( 11.5px );
+-webkit-backdrop-filter: blur( 11.5px );
+border-radius: 10px;
+height: 200px;
+}
+
+.banner .card {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    color: black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 75px;
+    box-shadow: 0 0 1em aliceblue;
+    
+}
+
+.banner .card2 {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 75px;
+    box-shadow: 0 0 1em aliceblue;
+    
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    background-color: #0d8676;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.ipt {
+    height: 30px;
+    border: 1px solid #0d8676;
+    border-radius: 4px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #000000; 
+    color: white;
+}
+
+
+.cadastro .card {
+justify-content: center;
+display: flex;
+align-items: center;
+
+
+
+}
+.cadastro .card2 p {
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+margin-left: 110px;
+margin-top: 20px;
+}
+.cadastro .card2 h1 {
+    font-size: 30px;
+    
+}
+.cadastro .card2 input {
+    height: 30px;
+    border: 1px solid #0d8676;
+    border-radius: 4px;
+    margin-right: 0px;
+    outline: none;
+    
+}
+
+.cadastro .card .btn {
+    margin-top: 20px;
+}
+
+.faixa {
+    background-color: #0d8676;
+    border-radius: 10px;
+    width: 500px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .faixa2 {
+    background-color: #0d8676;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
